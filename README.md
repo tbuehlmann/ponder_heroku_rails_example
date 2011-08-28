@@ -13,3 +13,5 @@ Start the application with an EM based webserver like [Thin](http://code.macourn
 
 The actual Ponder code lies in config/initializers/ponder.rb and represents a simple echo bot. On connect, it will join #ponder on Freenode and parrot all messages coming in.
 
+Remember that Heroku will set applications asleep after some idle time. You will want to upgrade your plan or use some kind of pinging service to keep it awake.
+
