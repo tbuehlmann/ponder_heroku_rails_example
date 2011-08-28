@@ -3,12 +3,14 @@ This is a very simple example application for using the Ponder IRC Bot Framework
 
 ## Installation
 Cloning the repository and installing the bundled gems:
+
     $ git clone git@github.com:tbuehlmann/ponder_heroku_rails_example.git
     $ cd ponder_heroku_rails_example/
     $ bundle install
 
 ## Usage
 Start the application with an EM based webserver like [Thin](http://code.macournoyer.com/thin/ "Thin"):
+
     $ thin start
 
 The actual Ponder code lies in config/initializers/ponder.rb and represents a simple echo bot. On connect, it will join #ponder on Freenode and parrot all messages coming in.
