@@ -1,5 +1,5 @@
 # Ponder Heroku Rails Example
-This is a very simple example application for using the [Ponder](https://github.com/tbuehlmann/ponder "Ponder") IRC Bot Framework with Rails 3 and an [EventMachine](https://github.com/eventmachine/eventmachine "EventMachine") based webserver. Since [Heroku](http://www.heroku.com/ "Heroku") is using EM for serving applications, it will work there, too.
+This is a very simple example application for using the [Ponder](https://github.com/tbuehlmann/ponder "Ponder") IRC Bot Framework with Rails 3.1 and an [EventMachine](https://github.com/eventmachine/eventmachine "EventMachine") based webserver. Since [Heroku](http://www.heroku.com/ "Heroku") is using EM for serving applications, it will work there, too.
 
 ## Installation
 Cloning the repository and installing the bundled gems:
